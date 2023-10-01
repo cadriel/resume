@@ -3,6 +3,11 @@ import type { Config } from 'tailwindcss'
 import { iconsPlugin, getIconCollections } from '@egoist/tailwindcss-icons'
 
 export default <Partial<Config>>{
+  plugins: [
+    iconsPlugin({
+      collections: getIconCollections(['mdi']),
+    })
+  ],
   darkMode: 'class',
   // content: [],
   theme: {
@@ -15,10 +20,5 @@ export default <Partial<Config>>{
       'md': '768px',
       'lg': '1024px',
     }
-  },
-  plugins: [
-    iconsPlugin({
-      collections: getIconCollections(['mdi']),
-    })
-  ],
+  }
 }

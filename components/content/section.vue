@@ -4,7 +4,7 @@
       {{ title }}
     </h2>
 
-    <div class="font-light">
+    <div class="font-light" :class="contentClass">
       <slot />
     </div>
   </div>
@@ -16,6 +16,7 @@ defineOptions({
 })
 
 const title = defineModel('title', { required: true })
+const contentClass = defineModel('contentClass', { required: false, type: String })
 const attrs = useAttrs()
 
 const headingClass = computed(() => {

@@ -4,6 +4,13 @@
 
       <ContentDoc path="/left-content" />
 
+      <hr />
+
+      <div class="text-xs text-gray-400 dark:text-gray-500">
+        This app is written in Nuxt, with Tailwind.
+        It's deployed using Github Actions.
+      </div>
+
     </div>
   </div>
 </template>

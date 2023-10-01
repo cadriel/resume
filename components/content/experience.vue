@@ -1,16 +1,18 @@
 <template>
   <div class="flex w-full items-stretch mb-10">
-    <div class="flex-shrink bg-base-300 place-items-start pr-6">
-      <div class="text-lg">{{ company }}</div>
-      <a v-if="websiteLink" :href="websiteLink" target="_blank">{{ website }}</a>
+    <div class="flex-none w-64 place-items-start pr-6">
+      <div class="text-lg font-medium mb-3">{{ company }}</div>
+      <a v-if="websiteLink" :href="websiteLink" target="_blank" class="break-words">{{ website }}</a>
       <div>{{ dates }}</div>
     </div>
     
     <div class="flex-shrink basis-px divider divider-horizontal"><div class="dot"></div></div>
     
-    <div class="flex-grow basis-3/5 bg-base-300 place-items-start pl-6">
+    <div class="flex-grow basis-3/5 place-items-start pl-6">
       <h3 class="text-lg font-medium mb-3">{{ jobTitle }}</h3>
-      <slot />
+      <div class="text-gray-600 dark:text-gray-400">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -28,12 +30,6 @@ const websiteLink = computed(() => {
 </script>
 
 <style scoped lang="postcss">
-  .divider.divider-horizontal {
-    @apply bg-gray-300 dark:bg-gray-700;
-    min-height: 10px;
-    width: 1px;
-  }
-
   .dot {
     @apply bg-gray-300 dark:bg-gray-700;
     position: absolute;
