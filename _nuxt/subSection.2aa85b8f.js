@@ -1,1 +1,0 @@
-import{f as o,h as a,o as r,c as l,a as n,t as c,r as i}from"./entry.04ac7a3b.js";const d={class:"mb-8"},u={class:"mb-4 font-bold text-gray-500"},_=o({__name:"subSection",props:{title:{required:!0}},emits:["update:title"],setup(e){const t=a(e,"title");return(s,m)=>(r(),l("div",d,[n("h3",u,c(t.value),1),i(s.$slots,"default")]))}});export{_ as default};
