@@ -3,7 +3,7 @@ title: 'Craig Bassett - Resume'
 description: 'My Resume'
 ---
 
-::Section{Title=Summary ContentClass="text-gray-600 dark:text-gray-400"}
+::Section{Title=Summary ContentClass="text-neutral-600 dark:text-neutral-400"}
 
 <!-- TODO:
 - Make sure its printable.
@@ -18,12 +18,10 @@ Further experience with several advanced content management systems, along with 
 
 High performance, scalable, well architected and executed solutions are always strived for.
 Extra care and attention is applied toward process, tools and continuous integration, and delivery.
-
-Please visit [LinkedIn](https://www.linkedin.com/in/craigbassett/) for further information on skills and recommendations
 ::
 
 ::Section{Title="Work Experience"}
-  ::Experience{Company="Quest Software" Website="https://quest..com" Dates="2016 - Present" JobTitle="Principal Software Engineer"}
+  ::Experience{Company="Quest Software" Website="https://quest.com" Dates="2016 - Present" JobTitle="Principal Software Engineer"}
     - Created a new Licensing UI
       - Designed and implemented UX and UI
       - Originally written in Vue2, and re-written in Vue3

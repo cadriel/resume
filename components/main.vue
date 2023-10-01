@@ -1,5 +1,5 @@
 <template>
-  <main role="main" class="w-full flex-grow px-6 border-r border-gray-300 dark:border-gray-700">
+  <main role="main" class="w-full flex-grow px-6">
     <div class="flex w-full justify-end items-center py-3">
       <ColorMode />
 

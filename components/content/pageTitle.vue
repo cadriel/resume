@@ -1,10 +1,10 @@
 <template>
   <div class="mb-10">
-    <h1 class="text-5xl mb-4 ">
+    <h1 class="text-5xl mb-4 text-neutral-200">
       {{ firstname }}
-      <span class="font-thin text-gray-500">{{ lastname }}</span>
+      <span class="font-thin text-neutral-300">{{ lastname }}</span>
     </h1>
-    <p class="text-sm font-light dark:font-thin uppercase">{{ title }}</p>
+    <p class="text-sm font-light text-neutral-300 uppercase">{{ title }}</p>
   </div>
 </template>
 

@@ -1,33 +1,28 @@
 ::PageTitle{Firstname="Craig" Lastname="Bassett" Title="Principal Engineer"}
 ::
 
-::Contact{Email="craig.bassett@gmail.com" Github="github.com/cadriel" Location="Minneapolis, Minnesota, United States"}
+::Contact{Email="craig.bassett@gmail.com" Github="github.com/cadriel" Location="Minneapolis, MN, USA"}
 ::
 
 ::Section{Title=Skills Class=text-xl}
   ::SubSection{Title="Programming Languages"}
-    - Javascript
-    - Typescript
-    - Python
-    - HTML
-    - CSS
-    - .NET
+    ::Tags{Tags="Javascript,Typescript,HTML / JSX,.NET,Python,CSS / SCSS / PostCSS,Styled Components"}
+    ::
   ::
 
   ::SubSection{Title="Libraries &amp; Frameworks"}
-    - VueJS 2.0 &amp; 3.0
-    - Nuxt.js
-    - Angular
-    - React Query / Vue Query
-    - Pinia / Vuex
+    ::Tags{Tags="VueJS 2.0 &amp; 3.0,Nuxt.js,Angular,React Query,Vue Query,Pinia / Vuex,Express"}
+    ::
   ::
 
-  ::SubSection{Title="Platforms &amp; Technologies"}
-    - Node / npm / pnpm
-    - Express / Hapi / Koa
-    - AWS
-    - Azure
-    - Linux / Windows / MacOS
+  ::SubSection{Title="Backend"}
+    ::Tags{Tags="Node,Postgres,MongoDB,Sql Server,MySql"}
+    ::
+  ::
+
+  ::SubSection{Title="Devops"}
+    ::Tags{Tags="AWS,Azure,Linux / Windows / MacOS"}
+    ::
   ::
 ::
 

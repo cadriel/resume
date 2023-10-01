@@ -11,7 +11,11 @@
       <a :href="githubLink" target="_blank">{{ github }}</a>
     </div>
 
-    <p class="text-xs font-light dark:font-thin" v-if="location">{{ location }}</p>
+    <div class="flex items-center font-light mb-1" v-if="location">
+      <span class="i-mdi-map-marker mr-2"></span>
+      {{ location }}
+    </div>
+    <!-- <p class="text-xs font-light dark:font-thin" v-if="location">{{ location }}</p> -->
   </Section>
 </template>
 

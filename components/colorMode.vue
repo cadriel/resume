@@ -1,5 +1,5 @@
 <template>
-  <ColorScheme placeholder="..." tag="span" class="text-gray-300 dark:text-gray-700">
+  <ColorScheme placeholder="..." tag="span" class="text-neutral-300 dark:text-neutral-700">
   <label for="btn-toggle" class="btn-toggle-group" @click="toggleColorMode">
     <span class="btn-toggle rounded-l-full" :class="{ 'active': $colorMode.value === 'light' }">
       <span class="flex i-mdi-white-balance-sunny" />
@@ -25,14 +25,14 @@ function toggleColorMode() {
 
 <style scoped lang="postcss">
   .btn-toggle-group {
-    @apply border border-gray-300 dark:border-gray-700 inline-flex items-center rounded-full cursor-pointer;
+    @apply border border-neutral-300 dark:border-neutral-700 inline-flex items-center rounded-full cursor-pointer;
   }
 
   .btn-toggle {
-    @apply px-2 py-1 text-gray-300 dark:text-gray-700;
+    @apply px-2 py-1 text-neutral-300 dark:text-neutral-700;
   }
 
   .btn-toggle.active {
-    @apply text-gray-700 dark:text-gray-300;
+    @apply text-neutral-700 dark:text-neutral-300;
   }
 </style>

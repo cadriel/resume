@@ -1,6 +1,6 @@
 <template>
   <div class="mb-8">
-    <h3 class="mb-4 font-bold text-gray-500">
+    <h3 class="mb-4 font-bold text-neutral-500">
       {{ title }}
     </h3>
 

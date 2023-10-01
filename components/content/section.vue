@@ -1,6 +1,6 @@
 <template>
   <div class="mb-10">
-    <h2 class="font-serif mb-4 pb-1 font-thin uppercase" :class="headingClass">
+    <h2 class="mb-4 pb-1 font-light uppercase" :class="headingClass">
       {{ title }}
     </h2>
 
@@ -20,7 +20,7 @@ const contentClass = defineModel('contentClass', { required: false, type: String
 const attrs = useAttrs()
 
 const headingClass = computed(() => {
-  const borderClasses = 'border-b border-gray-300 dark:border-gray-700'
+  const borderClasses = 'border-b border-neutral-300 dark:border-neutral-700'
   if (attrs.class) return attrs.class
   return `${borderClasses} text-2xl`
 })

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply min-h-screen bg-gray-100 dark:bg-gray-800 dark:text-gray-200;
+  @apply min-h-screen bg-stone-400 dark:bg-stone-900 dark:text-gray-200;
   @apply text-base;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  @apply hover:underline text-blue-600 dark:text-blue-400;
+  @apply hover:underline text-yellow-600;
 }
 
 ul {
@@ -32,11 +32,18 @@ p {
 }
 
 .divider.divider-horizontal {
-  @apply bg-gray-300 dark:bg-gray-700;
+  @apply bg-neutral-300 dark:bg-neutral-700;
   min-height: 10px;
   width: 1px;
 }
 
 hr {
-  @apply border-gray-300 dark:border-gray-700 my-4;
+  @apply border-gray-500 my-4;
+}
+
+.tag {
+    padding: 0.2em 0.6em 0.3em;
+    @apply inline-flex items-center rounded-sm leading-none font-semibold text-xs bg-neutral-500;
+
+  p { @apply m-0 p-0; }
 }

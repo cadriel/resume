@@ -10,7 +10,7 @@
     
     <div class="flex-grow basis-3/5 place-items-start pl-6">
       <h3 class="text-lg font-medium mb-3">{{ jobTitle }}</h3>
-      <div class="text-gray-600 dark:text-gray-400">
+      <div class="text-neutral-600 dark:text-neutral-400">
         <slot />
       </div>
     </div>
@@ -31,7 +31,7 @@ const websiteLink = computed(() => {
 
 <style scoped lang="postcss">
   .dot {
-    @apply bg-gray-300 dark:bg-gray-700;
+    @apply bg-neutral-300 dark:bg-neutral-700;
     position: absolute;
     margin-top: 10px;
     margin-left: -5px;
