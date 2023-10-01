@@ -60,7 +60,7 @@ Extra care and attention is applied toward process, tools and continuous integra
     - Further redesign and changes were implemented in order to meet the Dell greater brand requirements.
   ::
 
-  ::Experience{Company="Entratius" Website="https://en.wikipedia.org/wiki/Enstratius" Dates="2011 - 2013" JobTitle="Frontend Software Architect"}
+  ::Experience{Company="Enstratius" Website="https://en.wikipedia.org/wiki/Enstratius" Dates="2011 - 2013" JobTitle="Frontend Software Architect"}
     - Redesigned the entire app interface given new IA requirements.
     - Introduced, implemented and helped to migrate the team from SVN to GIT version control.
     - Rewrote front end components of application layer using new technologies.
