@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
   content: {
-    // options
+    //
   },
   tailwindcss: {
     // cssPath: '~/assets/css/tailwind.css',
@@ -37,6 +37,6 @@ export default defineNuxtConfig({
     baseURL: '/resume/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
   },
-  ssr: false,
+  // ssr: false, // causes issues when running generate due to content not being available.
   devtools: { enabled: true }
 })

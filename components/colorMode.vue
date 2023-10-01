@@ -1,12 +1,14 @@
 <template>
+  <ColorScheme placeholder="..." tag="span" class="text-gray-300 dark:text-gray-700">
   <label for="btn-toggle" class="btn-toggle-group" @click="toggleColorMode">
-    <span class="btn-toggle rounded-l-full" :class="{ 'active': colorMode.value === 'light' }">
+    <span class="btn-toggle rounded-l-full" :class="{ 'active': $colorMode.value === 'light' }">
       <span class="flex i-mdi-white-balance-sunny" />
     </span>
-    <span class="btn-toggle rounded-r-full" :class="{ 'active': colorMode.value === 'dark' }">
+    <span class="btn-toggle rounded-r-full" :class="{ 'active': $colorMode.value === 'dark' }">
       <span class="flex i-mdi-moon-waning-crescent" />
     </span>
   </label>
+  </ColorScheme>
 </template>
 
 <script setup lang="ts">

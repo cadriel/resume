@@ -8,7 +8,7 @@
       <BtnSocial icon="i-mdi-github" @click="handleSocial" />
     </div>
 
-    <ContentDoc />
+    <ContentDoc path="/main-content" />
     
   </main>
 </template>
