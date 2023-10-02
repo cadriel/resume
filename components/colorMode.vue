@@ -1,6 +1,6 @@
 <template>
-  <ColorScheme placeholder="..." tag="span" class="text-neutral-300 dark:text-neutral-700">
-  <label for="btn-toggle" class="btn-toggle-group" @click="toggleColorMode">
+  <ColorScheme placeholder="..." tag="span" class="noprint text-neutral-300 dark:text-neutral-700">
+  <label for="btn-toggle" class="noprint btn-toggle-group" @click="toggleColorMode">
     <span class="btn-toggle rounded-l-full" :class="{ 'active': $colorMode.value === 'light' }">
       <span class="flex i-mdi-white-balance-sunny" />
     </span>

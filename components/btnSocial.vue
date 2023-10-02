@@ -1,8 +1,7 @@
 <template>
   <button
     type="button"
-    
-    class="btn-social">
+    class="btn-social noprint">
     <div class="flex text-2xl" :class="icon"></div>
   </button>
 </template>

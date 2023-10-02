@@ -4,11 +4,12 @@
 
       <ContentDoc path="/left-content" />
 
-      <hr />
+      <hr class="noprint" />
 
-      <div class="text-xs text-neutral-500">
-        This app is written in Nuxt, with Tailwind.
-        It's deployed using Github Actions.
+      <div class="noprint text-xs text-neutral-500">
+        <p>Engineered with Nuxt and Vue3, with Tailwind CSS.</p>
+        <p>Content written in Markdown with support of the Nuxt Content Module.</p>
+        <p>Magically deployed on github pages using automated actions.</p>
       </div>
 
     </div>

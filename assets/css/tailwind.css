@@ -47,3 +47,10 @@ hr {
 
   p { @apply m-0 p-0; }
 }
+
+
+@media print {
+  .noprint, .noprint * {
+    display: none !important;
+  }
+}

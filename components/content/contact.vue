@@ -11,17 +11,22 @@
       <a :href="githubLink" target="_blank">{{ github }}</a>
     </div>
 
+    <div class="flex items-center font-light mb-1" v-if="linkedin">
+      <span class="i-mdi-linkedin mr-2"></span>
+      <a :href="linkedinLink" target="_blank">{{ linkedin }}</a>
+    </div>
+
     <div class="flex items-center font-light mb-1" v-if="location">
       <span class="i-mdi-map-marker mr-2"></span>
       {{ location }}
     </div>
-    <!-- <p class="text-xs font-light dark:font-thin" v-if="location">{{ location }}</p> -->
   </Section>
 </template>
 
 <script setup lang="ts">
 const email = defineModel('email', { required: false })
 const github = defineModel('github', { required: false })
+const linkedin = defineModel('linkedin', { required: false })
 const location = defineModel('location', { required: false })
 
 const mailtoLink = computed(() => {
@@ -32,6 +37,11 @@ const mailtoLink = computed(() => {
 const githubLink = computed(() => {
   if (!github.value) return ''
   return `https://${github.value}`
+})
+
+const linkedinLink = computed(() => {
+  if (!github.value) return ''
+  return `https://${linkedin.value}`
 })
 
 </script>

@@ -1,7 +1,7 @@
 ::PageTitle{Firstname="Craig" Lastname="Bassett" Title="Principal Engineer"}
 ::
 
-::Contact{Email="craig.bassett@gmail.com" Github="github.com/cadriel" Location="Minneapolis, MN, USA"}
+::Contact{Email="craig.bassett@gmail.com" Github="github.com/cadriel" Linkedin="linkedin.com/in/craigbassett" Location="Minneapolis, MN, USA"}
 ::
 
 ::Section{Title=Skills Class=text-xl}
@@ -11,12 +11,12 @@
   ::
 
   ::SubSection{Title="Libraries &amp; Frameworks"}
-    ::Tags{Tags="VueJS 2.0 &amp; 3.0,Nuxt.js,Angular,React Query,Vue Query,Pinia / Vuex,Express"}
+    ::Tags{Tags="VueJS,Nuxt.js,Angular,Vue Query,Pinia / Vuex,Express"}
     ::
   ::
 
   ::SubSection{Title="Backend"}
-    ::Tags{Tags="Node,Postgres,MongoDB,Sql Server,MySql"}
+    ::Tags{Tags="Node,Postgres,MongoDB,Sql Server,MySql,IIS"}
     ::
   ::
 
@@ -27,7 +27,7 @@
 ::
 
 ::Section{Title=Education Class=text-xl}
-Tawa College
+Tawa College, New Zealand
 ::
 
 ::Section{Title=References Class=text-xl}

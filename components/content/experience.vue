@@ -10,7 +10,7 @@
     
     <div class="flex-grow basis-3/5 place-items-start pl-6">
       <h3 class="text-lg font-medium mb-3">{{ jobTitle }}</h3>
-      <div class="text-neutral-600 dark:text-neutral-400">
+      <div class="text-sm text-neutral-600 dark:text-neutral-400">
         <slot />
       </div>
     </div>

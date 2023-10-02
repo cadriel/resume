@@ -9,7 +9,8 @@ export default defineNuxtConfig({
 
   // Module Config
   colorMode: {
-    classSuffix: ''
+    classSuffix: '',
+    preference: 'light'
   },
   content: {
     //
@@ -36,6 +37,11 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/resume/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      ]
+    }
   },
   // ssr: false, // causes issues when running generate due to content not being available.
   devtools: { enabled: true }
