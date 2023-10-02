@@ -5,7 +5,7 @@ description: 'My Resume'
 
 ::Section{Title=Summary ContentClass="text-neutral-600 dark:text-neutral-400"}
 
-I'm a senior front end full stack software engineer specializing in user experience, user interface, and general well being of the greater web.
+I'm a senior front-end full stack software engineer specializing in user experience, user interface, and general well being of the greater web.
 
 Experience spans the majority product lifecycle - from creative to design, through to development, testing and support - coupled with team management.
 
@@ -46,11 +46,11 @@ Extra care and attention is applied toward process, tools, continuous integratio
     ::SubHeading{Title="Licensing app prototype"}
     ::
 
-    - Defined and Developed a Node Express API.
+    - Defined and developed a Node Express API.
     - MongoDB backend.
     - Devops included gulp pipelines, tests and associated work in order to nurture continuous integration and delivery.
 
-    ::SubHeading{Title="Other notable achievements"}
+    ::SubHeading{Title="Other achievements"}
     ::
 
     - New UI Framework learnings; Vue, Vuetify, Quasar, Vue-Query, MongoDB, Postgres, Nuxt.
@@ -62,17 +62,17 @@ Extra care and attention is applied toward process, tools, continuous integratio
     ::SubHeading{Title="Dell Cloud Manager"}
     ::
 
-    - Manage, define and police all code in the RESTful component for Dell Cloud Manager. This component provides the data and interface to and from the User Interface and backend components.
+    - Managed, defined and policed all code in the RESTful component for Dell Cloud Manager. This component provides the data and interface to and from the user interface and backend components.
 
-    - Serve as the Technical Manager for front end engineering and operations as a point of contact with the back end, product and quality teams. I liaise with other team leads to manage daily features, bugs and general workflows. Product roadmaps and planning are also discussed daily.
+    - Served as the Technical Manager for front-end engineering and operations as a point of contact with the back end, product and quality teams. I liaise with other team leads to manage daily features, bugs and general workflows. Product roadmaps and planning are also discussed daily.
   
     - Possess a rare and intimate knowledge of the Cloud and Dell Cloud Manager across the full technology stack, and serve as a point of contact for all teams when required - especially where concerning the RESTful API or Angular UI applications. 
     
-    - Oversee and manage Creative Design requirements in the product - which involves a direct and intimate relationship with the UX and Product Management teams. This particular function ensures that the vision prescribed by UX is met in the final delivery of changes by our team.
+    - Oversee and managed creative design requirements in the product - which involves a direct and intimate relationship with the UX and Product Management teams. This particular function ensures that the vision prescribed by UX is met in the final delivery of changes by our team.
 
-    - Continued rewriting and implementing new front end components of the now Dell Cloud Manager product.
+    - Continued rewriting and implementing new front-end components of the now Dell Cloud Manager product.
 
-    ::SubHeading{Title="Other notable achievements"}
+    ::SubHeading{Title="Other achievements"}
     ::
 
     - Contributing to Dell's best practice for RESTful API's and implementation requirements given our technical platform.
@@ -81,7 +81,7 @@ Extra care and attention is applied toward process, tools, continuous integratio
     - Liased with Dell and transferred from New Zealand to the US.
   ::
 
-  ::Experience{Company="Enstratius" Website="https://en.wikipedia.org/wiki/Enstratius" Dates="2011 - 2013" JobTitle="Frontend Software Architect"}
+  ::Experience{Company="Enstratius" Website="https://en.wikipedia.org/wiki/Enstratius" Dates="2011 - 2013" JobTitle="Front-end Software Architect"}
 
     ::SubHeading{Title="Dell Cloud Manager"}
     ::
@@ -93,23 +93,23 @@ Extra care and attention is applied toward process, tools, continuous integratio
 
     - Redesigned the entire app interface given new IA requirements.
     - Introduced, implemented and helped to migrate the team from SVN to GIT.
-    - Rewrote front end components of application layer using new technologies.
+    - Rewrote front-end components of application layer using new technologies.
     - Implemented a new RESTful API for communication with legacy backend systems in JAVA using the GRAILS framework.
     - Implemented best practices for code separation and basic OO principles.
-    - Implemented front end interactive features such as navigation, core UI components and other key elements to ensure UX and UI is consistent and usable.
+    - Implemented front-end interactive features such as navigation, core UI components and other key elements to ensure UX and UI is consistent and usable.
   ::
 
-  ::Experience{Company="APN Online" Website="https://www.nzherald.co.nz" Dates="2009 - 2011" JobTitle="Front End Engineer"}
+  ::Experience{Company="APN Online" Website="https://www.nzherald.co.nz" Dates="2009 - 2011" JobTitle="Front-end Engineer"}
 
-    ::SubHeading{Title="The Herald Newspaper"}
+    ::SubHeading{Title="The New Zealand Herald Newspaper"}
     ::
 
     - User Interface and User Experience advice, direction and implementation.
-    - Creative thought, recommendations and execution of front end design against existing codebases.
+    - Creative thought, recommendations and execution of front-end design against existing codebases.
     - Re-engineering existing code to meet new standards.
     - Integration of GIT as version control, migrated from SVN - along with documentation and training.
 
-    ::SubHeading{Title="Other notable achievements"}
+    ::SubHeading{Title="Other achievements"}
     ::
 
     - The design and implementation of a new video player and interface.
