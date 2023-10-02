@@ -1,6 +1,6 @@
 <template>
-  <div class="left-section">
-    <div class="sticky top-0 p-4 w-full h-full text-sm text-neutral-200">
+  <div class="left-section text-neutral-200">
+    <div class="sticky top-0 p-4 w-full h-full text-sm ">
 
       <ContentDoc path="/left-content" />
 
@@ -30,5 +30,11 @@
 
 .left-section {
   @apply w-fixed w-full max-h-full flex-shrink flex-grow-0 px-4 bg-neutral-800 dark:bg-stone-700 rounded-l-md
+}
+
+@media print {
+  .left-section {
+    @apply text-neutral-950;
+  }
 }
 </style>
