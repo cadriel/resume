@@ -5,14 +5,32 @@ description: 'My Resume'
 
 ::Section{Title=Summary ContentClass="text-neutral-600 dark:text-neutral-400"}
 
-I'm a senior front-end full-stack software engineer specializing in user experience, user interface, and the general well-being of the web.
+I'm a senior, full-stack principal engineer specializing in user experience, user interface, API's and the general well-being of the web.
 
 Experience spans the whole product lifecycle - from creative and design to development, testing, and support - coupled with team management.
 
 I have additional experience with several advanced content management systems, with social networking integration and mobile development.
 
-High-performance, scalable, well architected and executed solutions are strived for. Extra care and attention are applied toward process, tools, continuous integration and delivery.
+High-performance, scalable, well architected and executed solutions are strived for. Extra care and attention are applied toward process, tools, continuous integration and delivery. I love what I do.
 ::
+
+::Section{Title="Open Source Experience"}
+  ::Experience{Company="Fluidd" Website="https://github.com/fluidd-core/fluidd" Website2="https://docs.fluidd.xyz" Dates="2020 - Present" JobTitle="Lead Engineer"}
+
+    ::SubHeading{Title="Fluidd"}
+    ::
+    
+    Fluidd is a socket connected web app for monitoring and controlling 3D printers.
+    It interfaces with linux based firmware and is considered top tier software and firmware
+    in the 3d printing community.
+
+    - Designed and Engineered.
+    - Collaborated with the firmware maintainers.
+    - Automated releases.
+    - Seperate pre-compiled and installed raspberry pi installer.
+    - Built-in documentation...
+    - ... alongside a markdown based documentation app.
+  ::
 
 ::Section{Title="Work Experience"}
   ::Experience{Company="Quest Software" Website="https://quest.com" Dates="2016 - Present" JobTitle="Principal Software Engineer"}
@@ -29,6 +47,7 @@ High-performance, scalable, well architected and executed solutions are strived 
 
     - Written in Angular 1.
     - Designed and implemented a rewrite in Vue3.
+    - Ongoing feature updates.
 
     ::SubHeading{Title="Quest component library"}
     ::
@@ -135,5 +154,5 @@ High-performance, scalable, well architected and executed solutions are strived 
   - Open Source
   - 3D Printing
   - Remote Control
-  - Mountain Biking
-  - Hiking
+  - Mountain Biking / Cycling
+  - Tech

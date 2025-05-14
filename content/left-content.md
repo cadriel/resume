@@ -11,7 +11,7 @@
   ::
 
   ::SubSection{Title="Libraries &amp; Frameworks"}
-    ::Tags{Tags="VueJS,Nuxt.js,Angular,Vue Query,Pinia / Vuex,Express"}
+    ::Tags{Tags="Vue,Nuxt.js,Angular,Vue Query,Pinia / Vuex,Express"}
     ::
   ::
 
@@ -21,7 +21,7 @@
   ::
 
   ::SubSection{Title="Devops"}
-    ::Tags{Tags="AWS,Azure,Linux / Windows / MacOS"}
+    ::Tags{Tags="AWS,Azure,Linux / Windows / MacOS,Github Actions"}
     ::
   ::
 ::

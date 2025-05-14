@@ -2,7 +2,8 @@
   <div class="flex w-full items-stretch mb-10">
     <div class="flex-none w-64 place-items-start pr-6">
       <div class="text-lg font-medium mb-3">{{ company }}</div>
-      <a v-if="websiteLink" :href="websiteLink" target="_blank" class="break-words">{{ website }}</a>
+      <a v-if="website" :href="website" target="_blank" class="break-all inline-block">{{ website }}</a>
+      <a v-if="website2" :href="website2" target="_blank" class="break-all inline-block">{{ website2 }}</a>
       <div>{{ dates }}</div>
     </div>
     
@@ -18,15 +19,18 @@
 </template>
 
 <script setup lang="ts">
+import { PropType } from 'vue'
+
 const company = defineModel('company', { required: true })
 const website = defineModel('website', { type: String, required: false })
+const website2 = defineModel('website2', { type: String, required: false })
 const dates = defineModel('dates', { required: false })
 const jobTitle = defineModel('jobTitle', { required: true })
 
-const websiteLink = computed(() => {
-  if (!website.value) return ''
-  return website.value
-})
+// const websiteLink = computed(() => {
+//   if (!website.value) return ''
+//   return website.value
+// })
 </script>
 
 <style scoped lang="postcss">
