@@ -15,7 +15,7 @@ High-performance, scalable, well architected and executed solutions are strived 
 ::
 
 ::Section{Title="Open Source Experience"}
-  ::Experience{Company="Fluidd" Website="https://github.com/fluidd-core/fluidd" Website2="https://docs.fluidd.xyz" Dates="2020 - Present" JobTitle="Lead Engineer"}
+  ::Experience{Company="Fluidd" Website="https://github.com/fluidd-core/fluidd" Website2="https://docs.fluidd.xyz" Dates="2020 - Present" JobTitle="Founder / Lead Engineer"}
 
     ::SubHeading{Title="Fluidd"}
     ::
