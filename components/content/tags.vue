@@ -12,3 +12,12 @@ const tagsFormatted = computed(() => {
   return tags.value.split(',').map((tag: string) => tag.trim())
 })
 </script>
+
+<style lang="postcss" scoped>
+@media print {
+  .tag {
+    @apply bg-neutral-200;
+    print-color-adjust: exact;
+  }
+}
+</style>

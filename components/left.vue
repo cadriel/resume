@@ -1,6 +1,6 @@
 <template>
   <div class="left-section text-neutral-200">
-    <div class="sticky top-0 p-4 w-full h-full text-sm ">
+    <div class="left-section-sticky">
 
       <ContentDoc path="/left-content" />
 
@@ -32,9 +32,17 @@
   @apply w-fixed w-full max-h-full flex-shrink flex-grow-0 px-4 bg-neutral-800 dark:bg-stone-700 rounded-l-md
 }
 
+.left-section-sticky {
+  @apply sticky top-0 p-4 w-full h-full text-sm
+}
+
 @media print {
   .left-section {
-    @apply text-neutral-950;
+    @apply bg-neutral-50 text-neutral-950 p-0 w-auto flex-none block;
+  }
+
+  .left-section-sticky {
+    @apply static p-0 text-base;
   }
 }
 </style>

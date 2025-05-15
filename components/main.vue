@@ -1,5 +1,5 @@
 <template>
-  <main role="main" class="w-full flex-grow px-10">
+  <main role="main" class="main-section">
     <div class="flex w-full justify-end items-center py-3">
       <ColorMode />
 
@@ -21,3 +21,16 @@ function handleSocial() {
   )
 }
 </script>
+
+<style lang="postcss" scoped>
+.main-section {
+  @apply w-full flex-grow px-10
+}
+
+@media print {
+  .main-section {
+    @apply bg-neutral-50 text-neutral-950 w-auto flex-none block p-0;
+    page-break-before: always;
+  }
+}
+</style>

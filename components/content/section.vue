@@ -17,11 +17,33 @@ defineOptions({
 
 const title = defineModel('title', { required: true })
 const contentClass = defineModel('contentClass', { required: false, type: String })
+const h2alt = defineModel('h2alt', { required: false, default: false, type: Boolean })
 const attrs = useAttrs()
 
 const headingClass = computed(() => {
-  const borderClasses = 'border-b border-neutral-300 dark:border-neutral-700'
-  if (attrs.class) return attrs.class
-  return `${borderClasses} text-2xl`
+  return (h2alt.value) ? 'alt' : 'classic'
 })
+
+// const headingClass = computed(() => {
+//   const borderClasses = 'border-b border-neutral-300 dark:border-neutral-700'
+//   if (attrs.class) return attrs.class
+//   return `${borderClasses} text-2xl`
+// })
 </script>
+
+<style lang="postcss" scoped>
+h2.classic {
+  @apply mb-4 pb-1 font-light uppercase border-b border-neutral-300 dark:border-neutral-700 text-2xl;
+}
+
+h2.alt {
+  @apply mb-4 pb-1 font-light uppercase text-xl;
+}
+
+@media print {
+  h2 {
+    font-size: 1.25rem !important;
+  }
+}
+</style>
+

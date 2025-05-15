@@ -53,4 +53,8 @@ hr {
   .noprint, .noprint * {
     display: none !important;
   }
+
+  /* a[href]:after {
+    content: " (" attr(href) ")";
+  } */
 }

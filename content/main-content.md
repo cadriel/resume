@@ -11,7 +11,7 @@ Experience spans the whole product lifecycle - from creative and design to devel
 
 I have additional experience with several advanced content management systems, with social networking integration and mobile development.
 
-High-performance, scalable, well architected and executed solutions are strived for. Extra care and attention are applied toward process, tools, continuous integration and delivery. I love what I do.
+High-performance, scalable, well architected and executed solutions are strived for. Extra care and attention are applied toward process, tools, continuous integration and delivery.
 ::
 
 ::Section{Title="Open Source Experience"}
