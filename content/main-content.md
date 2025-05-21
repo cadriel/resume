@@ -45,6 +45,8 @@ High-performance, scalable, well architected and executed solutions are strived 
     ::SubHeading{Title="Onpremise Legacy app rewrite"}
     ::
 
+    - Toad Intelligence Central.
+    - Combined multiple data sources into a central location.
     - Written in Angular 1.
     - Designed and implemented a rewrite in Vue3.
     - Ongoing feature updates.
