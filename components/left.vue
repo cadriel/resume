@@ -41,13 +41,12 @@
 }
 
 .profile-pic { 
-    @apply border border-neutral-200;
+    @apply flex border border-neutral-200;
     margin-bottom: 4px;
     width: 125px;
     height: 125px;
     border-radius: 100%; 
     overflow: hidden; 
-    display: flex; 
     align-items: center; 
     justify-content: center; 
 } 
@@ -59,6 +58,10 @@
 }
 
 @media print {
+  .profile-pic {
+    @apply block absolute right-0;
+  }
+
   .left-section {
     @apply bg-neutral-50 text-neutral-950 p-0 w-auto flex-none block;
   }

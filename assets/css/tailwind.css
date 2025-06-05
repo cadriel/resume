@@ -54,6 +54,10 @@ hr {
     display: none !important;
   }
 
+  .page-break {
+    page-break-before: always;
+  }
+
   /* a[href]:after {
     content: " (" attr(href) ")";
   } */

@@ -32,7 +32,7 @@ High-performance, scalable, well architected and executed solutions are strived 
     - ... alongside a markdown based documentation app.
   ::
 
-::Section{Title="Work Experience"}
+::Section{Title="Work Experience" SectionClass="page-break"}
   ::Experience{Company="Quest Software" Website="https://quest.com" Dates="2016 - Present" JobTitle="Principal Software Engineer"}
 
     ::SubHeading{Title="Licensing app"}
@@ -152,7 +152,7 @@ High-performance, scalable, well architected and executed solutions are strived 
   ::
 ::
 
-::Section{Title="Interests"}
+::Section{Title="Interests" SectionClass="page-break"}
   - Open Source
   - 3D Printing
   - Remote Control

@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-10">
+  <div class="mb-10" :class="sectionClass">
     <h2 class="mb-4 pb-1 font-light uppercase" :class="headingClass">
       {{ title }}
     </h2>
@@ -16,6 +16,7 @@ defineOptions({
 })
 
 const title = defineModel('title', { required: true })
+const sectionClass = defineModel('sectionClass', { required: false, type: String })
 const contentClass = defineModel('contentClass', { required: false, type: String })
 const h2alt = defineModel('h2alt', { required: false, default: false, type: Boolean })
 const attrs = useAttrs()
