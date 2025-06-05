@@ -2,6 +2,10 @@
   <div class="left-section text-neutral-200">
     <div class="left-section-sticky">
 
+      <div class="profile-pic">
+        <img src="~/assets/img/portrait_250x250.jpeg" />
+      </div>
+
       <ContentDoc path="/left-content" />
 
       <hr class="noprint" />
@@ -34,6 +38,24 @@
 
 .left-section-sticky {
   @apply sticky top-0 p-4 w-full h-full text-sm
+}
+
+.profile-pic { 
+    @apply border border-neutral-200;
+    margin-bottom: 4px;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%; 
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+
+.profile-pic img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
 @media print {
