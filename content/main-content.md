@@ -28,8 +28,8 @@ High-performance, scalable, well architected and executed solutions are strived 
     - Collaborated with the firmware maintainers.
     - Automated releases.
     - Seperate pre-compiled and installed raspberry pi installer.
-    - Built-in documentation...
-    - ... alongside a markdown based documentation app.
+    - Built-in documentation.
+    - Markdown based documentation app.
   ::
 
 ::Section{Title="Work Experience" SectionClass="page-break"}
@@ -38,17 +38,18 @@ High-performance, scalable, well architected and executed solutions are strived 
     ::SubHeading{Title="Licensing app"}
     ::
 
+    - Managed a team of 3.
     - Designed and implemented.
     - Defined API endpoints and requirements.
     - Started as Vue2 and re-written in Vue3.
 
-    ::SubHeading{Title="Onpremise Legacy app rewrite"}
+    ::SubHeading{Title="Toad Intelligence Central"}
     ::
 
-    - Toad Intelligence Central.
+    - On-premise legacy app re-write.
     - Combined multiple data sources into a central location.
-    - Written in Angular 1.
-    - Designed and implemented a rewrite in Vue3.
+    - Originally written in Angular 1.
+    - Designed and implemented a re-write in Vue3.
     - Ongoing feature updates.
 
     ::SubHeading{Title="Quest component library"}
@@ -60,8 +61,9 @@ High-performance, scalable, well architected and executed solutions are strived 
     ::
 
     - Defined and built an icon library.
-      - Multiple avenues of consumption to allow any team to use.
-      - Consumption paths included npm, cloning the source or downloading SVGs for use in marketing material.
+    - Multiple avenues of consumption to allow any team to use.
+    - Consumption paths included npm, cloning the source or downloading SVGs for use in marketing material.
+    - Included user submission automation via Jira for new icons.
 
     ::SubHeading{Title="Licensing app prototype"}
     ::
@@ -86,9 +88,9 @@ High-performance, scalable, well architected and executed solutions are strived 
 
     - I was the Technical Manager for front-end engineering and operations as a point of contact with the back-end, product and quality teams. I liaised with other team leads to manage daily features, bugs and general workflows. Product planning and roadmaps were discussed daily.
   
-    - I possessed a rare and intimate knowledge of the Cloud and Dell Cloud Manager across the whole technology stack and was the point of contact for all teams when required - especially concerning RESTful APIs or Angular UI applications.
+    - I possessed intimate knowledge of the Cloud and Dell Cloud Manager across the whole technology stack and was the point of contact for all teams when required - especially concerning RESTful APIs or Angular UI applications.
     
-    - Oversee and manage creative design requirements in the product - which involves a direct and intimate relationship with the UX and Product Management teams. This particular function ensures that the vision prescribed by UX was delivered.
+    - Oversee and manage creative design requirements in the product - which involves a direct relationship with the UX and Product Management teams. This helped ensure that the vision prescribed by UX was delivered.
 
     - Continued rewriting and implementing new front-end components of the now Dell Cloud Manager product.
 
