@@ -42,6 +42,8 @@ High-performance, scalable, well architected and executed solutions are strived 
     - Designed and implemented.
     - Defined API endpoints and requirements.
     - Started as Vue2 and re-written in Vue3.
+    - Unit and Component tests at 85%+
+    - Fully automated E2E testing using Cypress
 
     ::SubHeading{Title="Toad Intelligence Central"}
     ::

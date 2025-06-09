@@ -11,7 +11,7 @@
   ::
 
   ::SubSection{Title="Libraries &amp; Frameworks"}
-    ::Tags{Tags="Vue,Nuxt.js,Angular,Vue Query,Pinia / Vuex,Express"}
+    ::Tags{Tags="Vue,Nuxt.js,Angular,Vue Query,Pinia / Vuex,Express, Cypress"}
     ::
   ::
 
