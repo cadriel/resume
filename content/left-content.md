@@ -6,22 +6,22 @@
 
 ::Section{Title=Skills :h2alt=true}
   ::SubSection{Title="Programming Languages"}
-    ::Tags{Tags="Javascript,Typescript,HTML / JSX,.NET,Python,CSS / SCSS / PostCSS,Styled Components"}
+    ::Tags{Tags="Javascript,Typescript,HTML,JSX,.NET,Python,CSS,SCSS,PostCSS,Bash"}
     ::
   ::
 
   ::SubSection{Title="Libraries &amp; Frameworks"}
-    ::Tags{Tags="Vue,Nuxt.js,Angular,Vue Query,Pinia / Vuex,Express, Cypress"}
+    ::Tags{Tags="Vue.js,Nuxt.js,Angular,Vue Query,Pinia,Vuex,Express, Cypress"}
     ::
   ::
 
   ::SubSection{Title="Backend"}
-    ::Tags{Tags="Node,Postgres,MongoDB,Sql Server,MySql,IIS"}
+    ::Tags{Tags="Node.js,Postgres,MongoDB,Sql Server,MySql,IIS"}
     ::
   ::
 
   ::SubSection{Title="Devops"}
-    ::Tags{Tags="AWS,Azure,Linux / Windows / MacOS,Github Actions"}
+    ::Tags{Tags="AWS,Azure,Linux,Windows,MacOS,Github Actions"}
     ::
   ::
 ::
